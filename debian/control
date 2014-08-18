@@ -1,0 +1,15 @@
+Source: erlang-lhttpc
+Section: devel
+Priority: extra
+Maintainer: Aleksey Morarash <aleksey.morarash@proffero.com>
+Build-Depends: debhelper (>= 8.0.0), erlang-base
+Standards-Version: 3.9.3
+Homepage: https://github.com/esl/lhttpc
+Vcs-Browser: https://github.com/esl/lhttpc
+Vcs-Git: https://github.com/esl/lhttpc.git
+
+Package: erlang-lhttpc
+Architecture: all
+Depends: erlang-base
+Description: Lightweight HTTP/1.1 client implemented in Erlang
+ Lightweight HTTP/1.1 client implemented in Erlang.
