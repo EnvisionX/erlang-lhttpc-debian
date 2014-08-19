@@ -10,6 +10,6 @@ Vcs-Git: https://github.com/esl/lhttpc.git
 
 Package: erlang-lhttpc
 Architecture: all
-Depends: erlang-base
+Depends: erlang-base, erlang-ssl
 Description: Lightweight HTTP/1.1 client implemented in Erlang
  Lightweight HTTP/1.1 client implemented in Erlang.
